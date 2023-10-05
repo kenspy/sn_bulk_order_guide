@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Generate Excel attachment file for an Order Guide</description>
+        <internal_name>bulk_order_guide_attachment</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Bulk Order Guide Attachment</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-20 14:16:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4642345797403110c6d1b666f053aff8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Bulk Order Guide Attachment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bulk Order Guide" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_update_name>sys_hub_flow_4642345797403110c6d1b666f053aff8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-07 12:32:52</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=4642345797403110c6d1b666f053aff8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4642345797403110c6d1b666f053aff8"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=4642345797403110c6d1b666f053aff8^sys_idNOT INdd45881997547110c6d1b666f053af1c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Bulk Order Guide Attachment">4642345797403110c6d1b666f053aff8</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 16:07:39</sys_created_on>
+        <sys_id>dd45881997547110c6d1b666f053af1c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-07 12:32:52</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dd45881997547110c6d1b666f053af1c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=4642345797403110c6d1b666f053aff8"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4642345797403110c6d1b666f053aff8^sys_idNOT INc242345797403110c6d1b666f053affb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4642345797403110c6d1b666f053aff8</id>
+        <name>Bulk Order Guide Attachment</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-20 14:16:28</sys_created_on>
+        <sys_id>c242345797403110c6d1b666f053affb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-20 14:16:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c242345797403110c6d1b666f053affb"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=4642345797403110c6d1b666f053aff8^sys_idNOT IN9d45881997547110c6d1b666f053af16,dd45041197547110c6d1b666f053af5e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Bulk Order Guide Attachment">4642345797403110c6d1b666f053aff8</model>
+        <model_id>4642345797403110c6d1b666f053aff8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4642345797403110c6d1b666f053aff8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 16:07:39</sys_created_on>
+        <sys_id>9d45881997547110c6d1b666f053af16</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-07 12:32:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Bulk Order Guide Attachment">4642345797403110c6d1b666f053aff8</model>
+        <model_id>4642345797403110c6d1b666f053aff8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4642345797403110c6d1b666f053aff8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 16:07:39</sys_created_on>
+        <sys_id>dd45041197547110c6d1b666f053af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-26 16:07:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=4642345797403110c6d1b666f053aff8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4642345797403110c6d1b666f053aff8"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=4642345797403110c6d1b666f053aff8^sys_idNOT INa6844d0997203110c6d1b666f053af9b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Bulk Order Guide Attachment">4642345797403110c6d1b666f053aff8</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-07 12:21:18</sys_created_on>
+        <sys_id>a6844d0997203110c6d1b666f053af9b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-07 12:32:52</sys_updated_on>
+        <ui_id>074cefcc-b060-48c7-b56f-65b9114716ab</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a6844d0997203110c6d1b666f053af9b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a6844d0997203110c6d1b666f053af9b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-07 12:21:18</sys_created_on>
+        <sys_id>6e844d0997203110c6d1b666f053af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-07 12:21:18</sys_updated_on>
+        <value>1865cc1997547110c6d1b666f053af7b</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a6844d0997203110c6d1b666f053af9b</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-07 12:32:52</sys_created_on>
+        <sys_id>fb27c9c997203110c6d1b666f053afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-07 12:32:52</sys_updated_on>
+        <value>adf4854997203110c6d1b666f053af09:item_option_new,2535c94997203110c6d1b666f053af85:item_option_new,b6a5894997203110c6d1b666f053aff8:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a6844d0997203110c6d1b666f053af9b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>a6844d0997203110c6d1b666f053af9b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-07 12:32:52</sys_created_on>
+        <sys_id>7727c9c997203110c6d1b666f053afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-07 12:32:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>a6844d0997203110c6d1b666f053af9b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-07 12:21:18</sys_created_on>
+        <sys_id>ea844d0997203110c6d1b666f053af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-07 12:21:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>a6844d0997203110c6d1b666f053af9b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-07 12:21:18</sys_created_on>
+        <sys_id>2a844d0997203110c6d1b666f053af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-07 12:21:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a6844d0997203110c6d1b666f053af9b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a6844d0997203110c6d1b666f053af9b"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=4642345797403110c6d1b666f053aff8"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=4642345797403110c6d1b666f053aff8"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4642345797403110c6d1b666f053aff8"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=4642345797403110c6d1b666f053aff8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4642345797403110c6d1b666f053aff8^sys_idNOT IN9945881997547110c6d1b666f053af1a,d145041197547110c6d1b666f053af62"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4642345797403110c6d1b666f053aff8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 16:07:39</sys_created_on>
+        <sys_id>9945881997547110c6d1b666f053af1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bulk Order Guide" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-26 16:07:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4642345797403110c6d1b666f053aff8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 16:07:39</sys_created_on>
+        <sys_id>d145041197547110c6d1b666f053af62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bulk Order Guide" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-26 16:07:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4642345797403110c6d1b666f053aff8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4642345797403110c6d1b666f053aff8"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4642345797403110c6d1b666f053aff8"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=4642345797403110c6d1b666f053aff8"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=4642345797403110c6d1b666f053aff8"/>
+</record_update>

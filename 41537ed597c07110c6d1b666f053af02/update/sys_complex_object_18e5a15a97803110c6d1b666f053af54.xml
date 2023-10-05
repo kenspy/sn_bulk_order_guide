@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD54e5a15a6c80311001eca7ec68e74154</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>41537ed597c07110c6d1b666f053af02</scope_name>
+        <serialized_content>{"FlowDesigner:FD54e5a15a6c80311001eca7ec68e74154":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD54e5a15a6c80311001eca7ec68e74154.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Request\",\"mandatory\":\"true\",\"child_name\":\"request_child0\",\"uiUniqueId\":\"98defa8b-5aea-4c16-88bf-4f4fa72cb589\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD54e5a15a6c80311001eca7ec68e74154\",\"child_label\":\"Request_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"1b79cfe4-990a-4de3-bd06-eeaf6af2d8de\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-17 15:27:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>18e5a15a97803110c6d1b666f053af54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD54e5a15a6c80311001eca7ec68e74154</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bulk Order Guide" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_update_name>sys_complex_object_18e5a15a97803110c6d1b666f053af54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-17 15:27:58</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

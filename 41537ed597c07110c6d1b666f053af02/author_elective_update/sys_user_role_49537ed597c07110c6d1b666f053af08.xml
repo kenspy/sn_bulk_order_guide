@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Default admin role</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_803596_bulk_or_0.admin</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 18:32:26</sys_created_on>
+        <sys_id>49537ed597c07110c6d1b666f053af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_803596_bulk_or_0.admin</sys_name>
+        <sys_package display_value="Bulk Order" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bulk Order">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_update_name>sys_user_role_49537ed597c07110c6d1b666f053af08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 18:32:26</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</application>
+        <file_path/>
+        <instance_id>82ea2762dbfda4108aea21c405961907</instance_id>
+        <instance_name>dev105292</instance_name>
+        <name>sys_user_role_49537ed597c07110c6d1b666f053af08</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Default admin role</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_803596_bulk_or_0.admin</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>admin</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-14 18:32:26</sys_created_on><sys_id>49537ed597c07110c6d1b666f053af08</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_803596_bulk_or_0.admin</sys_name><sys_package display_value="Bulk Order" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package><sys_policy/><sys_scope display_value="Bulk Order">41537ed597c07110c6d1b666f053af02</sys_scope><sys_update_name>sys_user_role_49537ed597c07110c6d1b666f053af08</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-14 18:32:26</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>1117362741</payload_hash>
+        <record_name>x_803596_bulk_or_0.admin</record_name>
+        <reverted_from/>
+        <source>c1537ed597c07110c6d1b666f053af04</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 18:32:26</sys_created_on>
+        <sys_id>81537ed597c07110c6d1b666f053af25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18955acf9110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 18:32:26</sys_updated_on>
+        <type>Role</type>
+        <update_guid>c5537ed515c07110f1e19134efad8f24</update_guid>
+        <update_guid_history>c5537ed515c07110f1e19134efad8f24:1117362741</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_803596_bulk_or_0.admin">e4293dde97c03110c6d1b666f053af85</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-17 16:52:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>47aff8a2a4094f08958c04b66be9c3e4</sys_id>
+        <sys_metadata>49537ed597c07110c6d1b666f053af08</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_803596_bulk_or_0.admin</sys_name>
+        <sys_package display_value="Bulk Order Guide" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_scope_delete display_value="">714e0d619d104d2cbb0de682dc1d4e64</sys_scope_delete>
+        <sys_update_name>sys_user_role_49537ed597c07110c6d1b666f053af08</sys_update_name>
+        <sys_update_version display_value="sys_user_role_49537ed597c07110c6d1b666f053af08">81537ed597c07110c6d1b666f053af25</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-17 16:52:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

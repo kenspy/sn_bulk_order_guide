@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="New Bulk Order">34b3761997c07110c6d1b666f053af27</catalog_item>
+        <catalog_variable>IO:ef78f65d97c07110c6d1b666f053af95</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 19:03:41</sys_created_on>
+        <sys_id>735ab61197047110c6d1b666f053afb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="Bulk Order" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bulk Order">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_735ab61197047110c6d1b666f053afb1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 19:03:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide User list field">993af21197047110c6d1b666f053afdc</ui_policy>
+        <variable>sys_user</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</application>
+        <file_path/>
+        <instance_id>82ea2762dbfda4108aea21c405961907</instance_id>
+        <instance_name>dev105292</instance_name>
+        <name>catalog_ui_policy_action_735ab61197047110c6d1b666f053afb1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="New Bulk Order">34b3761997c07110c6d1b666f053af27</catalog_item><catalog_variable>IO:ef78f65d97c07110c6d1b666f053af95</catalog_variable><cleared>true</cleared><disabled>ignore</disabled><field/><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-14 19:03:41</sys_created_on><sys_id>735ab61197047110c6d1b666f053afb1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_user</sys_name><sys_package display_value="Bulk Order" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package><sys_policy/><sys_scope display_value="Bulk Order">41537ed597c07110c6d1b666f053af02</sys_scope><sys_update_name>catalog_ui_policy_action_735ab61197047110c6d1b666f053afb1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-14 19:03:41</sys_updated_on><table/><ui_policy display_value="Hide User list field">993af21197047110c6d1b666f053afdc</ui_policy><variable>sys_user</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1728626769</payload_hash>
+        <record_name>sys_user</record_name>
+        <reverted_from/>
+        <source>c1537ed597c07110c6d1b666f053af04</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 19:03:41</sys_created_on>
+        <sys_id>ba7a3a1197047110c6d1b666f053af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18955c995e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 19:03:41</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>fe7a3a11280471105df99f88fa68a06f</update_guid>
+        <update_guid_history>fe7a3a11280471105df99f88fa68a06f:-1728626769</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sys_user">f3fab25197047110c6d1b666f053afba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-07-14 19:05:56</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>05d83094bbfb4a3382f6e2685b229c39</sys_id>
+        <sys_metadata>735ab61197047110c6d1b666f053afb1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="Bulk Order Guide" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_scope_delete display_value="">714e0d619d104d2cbb0de682dc1d4e64</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_735ab61197047110c6d1b666f053afb1</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_735ab61197047110c6d1b666f053afb1">ba7a3a1197047110c6d1b666f053af70</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-14 19:05:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

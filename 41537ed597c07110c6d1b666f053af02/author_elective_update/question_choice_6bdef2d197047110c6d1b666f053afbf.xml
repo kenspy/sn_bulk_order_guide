@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Order type">bf3d7a5197047110c6d1b666f053aff3</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 19:23:22</sys_created_on>
+        <sys_id>6bdef2d197047110c6d1b666f053afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Guide</sys_name>
+        <sys_package display_value="Bulk Order" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bulk Order">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_update_name>question_choice_6bdef2d197047110c6d1b666f053afbf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 19:23:22</sys_updated_on>
+        <text>Order Guide</text>
+        <value>order_guide</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=6bdef2d197047110c6d1b666f053afbf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</application>
+        <file_path/>
+        <instance_id>82ea2762dbfda4108aea21c405961907</instance_id>
+        <instance_name>dev105292</instance_name>
+        <name>question_choice_6bdef2d197047110c6d1b666f053afbf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Order type">bf3d7a5197047110c6d1b666f053aff3</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-14 19:23:22</sys_created_on><sys_id>6bdef2d197047110c6d1b666f053afbf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Order Guide</sys_name><sys_package display_value="Bulk Order" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package><sys_policy/><sys_scope display_value="Bulk Order">41537ed597c07110c6d1b666f053af02</sys_scope><sys_update_name>question_choice_6bdef2d197047110c6d1b666f053afbf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-14 19:23:22</sys_updated_on><text>Order Guide</text><value>order_guide</value></question_choice><fx_price action="delete_multiple" query="id=6bdef2d197047110c6d1b666f053afbf"/></record_update>]]></payload>
+        <payload_hash>-143908676</payload_hash>
+        <record_name>Order Guide</record_name>
+        <reverted_from/>
+        <source>c1537ed597c07110c6d1b666f053af04</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 19:23:22</sys_created_on>
+        <sys_id>57fef6d197047110c6d1b666f053af62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18955db9b080000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 19:23:22</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>9bfef6d128047110de2eeecdc7032a61</update_guid>
+        <update_guid_history>9bfef6d128047110de2eeecdc7032a61:-143908676</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Order Guide">ee714fd597047110c6d1b666f053af39</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 19:34:15</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>17fe046d318f40a8beeb386779d3b7a1</sys_id>
+        <sys_metadata>6bdef2d197047110c6d1b666f053afbf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Guide</sys_name>
+        <sys_package display_value="Bulk Order Guide" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_scope_delete display_value="">714e0d619d104d2cbb0de682dc1d4e64</sys_scope_delete>
+        <sys_update_name>question_choice_6bdef2d197047110c6d1b666f053afbf</sys_update_name>
+        <sys_update_version display_value="question_choice_6bdef2d197047110c6d1b666f053afbf">57fef6d197047110c6d1b666f053af62</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 19:34:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

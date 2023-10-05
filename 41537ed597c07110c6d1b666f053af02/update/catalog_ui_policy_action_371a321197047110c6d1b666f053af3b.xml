@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Bulk Order Guide">34b3761997c07110c6d1b666f053af27</catalog_item>
+        <catalog_variable>IO:b118325d97c07110c6d1b666f053af47</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 19:02:17</sys_created_on>
+        <sys_id>371a321197047110c6d1b666f053af3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>excel_file</sys_name>
+        <sys_package display_value="Bulk Order Guide" source="x_803596_bulk_or_0">41537ed597c07110c6d1b666f053af02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bulk Order Guide">41537ed597c07110c6d1b666f053af02</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_371a321197047110c6d1b666f053af3b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 19:02:17</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Excel File Attachment">83f97edd97c07110c6d1b666f053afbf</ui_policy>
+        <variable>excel_file</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>
